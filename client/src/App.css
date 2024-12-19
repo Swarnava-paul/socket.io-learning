@@ -1,0 +1,46 @@
+.sidebar{
+    width: 30%;
+    height : 100vh;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: grid;
+    row-gap: 80px;
+    place-items: center;
+    overflow-y: scroll;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    width: 4px;
+    background-color: red;
+    color: rgb(47, 0, 255);
+}
+
+.chat-section {
+    width : 68%;
+    height: 100vh;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.each-user-div {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.each-user-div:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.each-user-div > img {
+    width: 20%;
+    position: static;
+}
